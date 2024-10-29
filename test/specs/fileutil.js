@@ -5,6 +5,6 @@ import fs from "fs"
 describe("file",()=>{
     it("filconn",async()=>{
       
-      
+      await browser.url("https://www.flipkart.com")
     })
 })
