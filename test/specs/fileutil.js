@@ -7,5 +7,6 @@ describe("file",()=>{
       
       await browser.url("https://www.flipkart.com")
       await browser.url("https://www.amazon.com");
+      await browser.pause(2000);
     })
 })
