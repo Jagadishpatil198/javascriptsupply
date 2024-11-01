@@ -6,5 +6,6 @@ describe("file",()=>{
     it("filconn",async()=>{
       
       await browser.url("https://www.flipkart.com")
+      await browser.url("https://www.amazon.com");
     })
 })
