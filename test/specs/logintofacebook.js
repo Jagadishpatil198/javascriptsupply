@@ -6,6 +6,7 @@ describe("login to facebook",()=>{
         await browser.implicitWait(3000);
 
         await browser.waitUntil(3000);
+        await browser.waitUntil(4000);
 
     })
 })
